@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: aliceblue;
+    }
+    body{
+        position: relative;
+       min-height: 100vh;
+        background:linear-gradient(rgba(0, 0, 0, 0.705));
+        background-image:url(fondocabecera.jpg);
+    
+    }
+    .logo{
+        height: 400px;
+        width: 200px;
+    }
+    .cabecera{
+        background-color: black;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        height: 30%;
+        text-align: center;
+        
+    }
+    .contenedor {
+        margin-top: 0;
+        height: 100px;
+        background-color: rgba(7, 1, 1, 0.568);
+        display:grid;
+        grid: template columns 1fr;
+      }
+    .item{
+         line-height: 100px;
+          text-align: center;
+          margin: 0 50px;
+          background-color: black;
+          margin: 10px;
+    }
+    footer{
+        margin-top: 10px;
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       background-color: black;
+    
+       height: 100px;
+    }
+    .item4{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.589), rgba(211, 10, 10, 0.603)), url(bebidas.jpeg);
+        opacity: #f005056e;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 30px;
+        border-radius: 10px;
+        -webkit-text-stroke: 1px #fff;

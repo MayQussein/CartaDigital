@@ -1,0 +1,108 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poiret One', cursive;
+font-size: 20px;
+color: aliceblue;
+}
+body{
+    position: relative;
+   min-height: 100vh;
+    background-image:url(fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    height: 400px;
+    width: 200px;
+}
+.cabecera{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    height: 30%;
+    text-align: center;
+    
+}
+.contenedor {
+    margin-top: 0;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.767);
+    display:grid;
+    grid: template columns 1fr;
+  }
+.item{
+     line-height: 100px;
+      text-align: center;
+      margin: 0 50px;
+      background-color: black;
+      margin: 10px;
+}
+.item1{
+    background-image: linear-gradient(to bottom, rgba(255, 2, 2, 0.486), rgba(7, 4, 4, 0.603)), url(papitas.jpeg);
+    opacity: #f005056e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+
+
+}
+.item2{
+    background-image: linear-gradient(to bottom, rgba(253, 3, 3, 0.4869), rgba(7, 4, 4, 0.603)), url(comidas.jpeg);
+    opacity: #f005056e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+
+
+}
+.item3{
+    background-image: linear-gradient(to bottom, rgba(253, 3, 3, 0.4869),  rgba(7, 4, 4, 0.603)), url(bebida.jpg);
+    opacity: #f005056e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+
+
+}
+.item4{
+    background-image: linear-gradient(to bottom, rgba(253, 3, 3, 0.486), rgba(7, 4, 4, 0.712)), url(bebidas.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    }
+footer{
+    margin-top: 10px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: black;
+
+   height: 100px;
+}
+
+.item3{
+    position: relative;
+}
