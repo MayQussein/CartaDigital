@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+}
+body{
+    position: relative;
+   height:200vh;
+    background-image:url(blackandred.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: aliceblue;
+    margin-top: 0;
+    line-height: 100px;
+    text-align: center;
+}
+.container{
+    color: white;
+    background-size: cover;
+    height: 40vh;
+}
+li{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 20px;
+    padding:20px;
+    line-height: 30px;
+    border: 1px solid white;
+    background-color: rgba(184, 18, 51, 0.212);
+    overflow: hidden;
+}
+  .item {
+    position: relative;
+    font-size: 16px;
+}
+  
+  .item .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+  .lomo-epico {
+    position: relative;
+}
+  
+  .lomo-epico .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+  }
+  .hamburguesas .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+  .hamburguesas{
+    position: relative;
+}
+.lomo-especial {
+    position: relative;
+}
+  
+  .tostado-triple .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+.tostado-triple {
+    position: relative;
+}
+.muzzarella .span {
+  display: block;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+.muzarella{
+  position: relative;
+}
+.doble-muzza .span {
+  display: block;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+.doble-muzza{
+  position: relative;
+}
+.especial .span {
+  display: block;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+.especial{
+  position: relative;
+}
+.napolitana .span {
+  display: block;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+.napolitana{
+  position: relative;
+}
+.tropical .span {
+  display: block;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+.tropical{
+  position: relative;
+}
+.fugazza .span {
+  display: block;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+.fugazza{
+  position: relative;
+}
+.doblemuzza .span {
+  display: block;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+.doblemuzza{
+  position: relative;
+}

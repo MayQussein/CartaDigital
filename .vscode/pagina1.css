@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.863);
+    color: aliceblue;
+    margin-top: 0;
+    line-height: 100px;
+    text-align: center;
+}
+body{
+    position: relative;
+    background-image: url(blackandred.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position-x: center;
+}
+  .container{
+    color: white;
+    line-height: 50px;
+    background-size: cover;
+    height: 40vh;
+}
+  li{ border: 1px solid white;
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgba(184, 18, 51, 0.212);
+    margin-left: 50px;
+    padding:20px;
+    line-height: 50px;
+}
+  .papas-fritas {
+    position: relative;
+}
+  
+  .papas-fritas .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+  .papas-bravas {
+    position: relative;
+}
+  
+  .papas-bravas .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+  }
+  .nuggets {
+    position: relative;
+}
+  
+  .nuggets .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+  .nuggets-de-pollo {
+    position: relative;
+}
+  
+  .nuggets-de-pollo .span {
+    display: block;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+img{
+    width: 100px;
+    height: 100px;
+}

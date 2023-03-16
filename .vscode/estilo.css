@@ -1,0 +1,120 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poiret One', cursive;
+font-size: 20px;
+color: aliceblue;
+}
+body{
+    position: relative;
+     min-height: 100%;
+    background-image:url(blackandred.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    
+    padding: 0;
+    line-height: 0;
+    height: 100px;
+    width: 100px;
+}
+.cabecera{
+    position:relative;
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    height: 30%;
+    text-align: center;
+    
+}
+.contenedor {
+    margin-top: 0;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+  }
+.item{
+     line-height: 80px;
+      text-align: center;
+      margin: 0 60px;
+      background-color: black;
+      margin: 10px;
+}
+.item1{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.315), rgba(7, 4, 4, 0.842)), url(papitas.jpeg);
+    opacity: #ffffff6e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+
+
+}
+.pagina-comidas{
+    text-decoration: none;
+}
+.pagina-picadas{
+    font-size: 20px;
+    text-decoration: none;
+}
+.item2{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.212), rgba(7, 4, 4, 0.842)), url(comidas.jpeg);
+    opacity: #f005056e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+
+
+}
+.item3{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.212), rgba(7, 4, 4, 0.842)), url(bebida.jpg);
+    opacity: #f005056e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+
+
+}
+.item4{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.212), rgba(7, 4, 4, 0.842)), url(bebidas.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    border-radius: 10px;
+    }
+footer
+{
+    margin-top: 10px;
+   bottom:0;
+   width: 100%;
+   display: flex;
+   flex-direction:column;
+   background-color: rgba(0, 0, 0, 0.479);
+   height: 100px;
+}
+.footer{
+    margin: auto;
+   justify-content: space-evenly;
+}
